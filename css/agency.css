@@ -164,6 +164,11 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fed136;
 }
 
+.img-invert {
+    -webkit-filter: invert(1);
+   filter: invert(1);
+}
+
 .btn-xl .badge {
     color: #fed136;
     background-color: #fff;
