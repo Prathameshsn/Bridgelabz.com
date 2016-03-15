@@ -263,11 +263,11 @@ html[xmlns] .flexslider .slides {
  * ====================================================================================================================*/
 @media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev {
-    opacity: 0;
+    opacity: 0.0;
     left: 10px;
   }
   .flex-direction-nav .flex-next {
-    opacity: 0;
+    opacity: 0.0;
     right: 10px;
   }
 }
