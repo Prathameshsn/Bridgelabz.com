@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7740fdf2-369f-4e4f-a844-37d0298d90cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/flexslider/font/flexslider-icon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/flexslider/font/flexslider-icon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/flexslider/font/flexslider-icon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/health.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/hurix.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/partners/mera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CNAME" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/flexslider/base.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/flexslider/flexslider.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/flexslider/font.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/flexslider/font/flexslider-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/flexslider/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/flexslider/resets.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/flexslider/responsive.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/flexslider/theme.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/flexslider/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.easing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.flexslider-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.mousewheel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/heena.png" afterPath="$PROJECT_DIR$/images/partners/heena.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/logos 1.png" afterPath="$PROJECT_DIR$/images/partners/xpresson.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/logos2.png" afterPath="$PROJECT_DIR$/images/partners/99adventure.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bridgelabz.github.io.iml" afterPath="$PROJECT_DIR$/.idea/bridgelabz.github.io.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.css" afterPath="$PROJECT_DIR$/css/base.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="bridgelabz.github.io.iws" />
@@ -53,24 +29,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42105263">
-              <caret line="411" column="39" selection-start-line="411" selection-start-column="39" selection-end-line="411" selection-end-column="39" />
+            <state relative-caret-position="274">
+              <caret line="389" column="62" selection-start-line="389" selection-start-column="62" selection-end-line="389" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#center#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/flexslider/base.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -78,18 +43,8 @@
       <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0833335">
+            <state relative-caret-position="2160">
               <caret line="120" column="15" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theme.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/flexslider/theme.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1666665">
-              <caret line="65" column="19" selection-start-line="64" selection-start-column="3" selection-end-line="65" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -114,20 +69,21 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
+    <option name="x" value="65" />
     <option name="y" value="-4" />
-    <option name="width" value="1368" />
-    <option name="height" value="773" />
+    <option name="width" value="1301" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -154,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -189,7 +146,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,6 +171,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="flex-direction-nav&#9;null&#9;null&#10;flex-directio&#9;null&#9;null&#10;flex-direction&#9;null&#9;null" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -230,24 +187,32 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -258,10 +223,12 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>/usr/bin/node</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
       <pass-parent-env>true</pass-parent-env>
@@ -274,7 +241,9 @@
       <method />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -283,31 +252,41 @@
       <changelist id="7740fdf2-369f-4e4f-a844-37d0298d90cf" name="Default" comment="" />
       <created>1455350364949</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1455350364949</updated>
+      <workItem from="1469705044221" duration="2857000" />
+      <workItem from="1475036099544" duration="128000" />
+      <workItem from="1475036245415" duration="378000" />
+      <workItem from="1475036636604" duration="628000" />
+      <workItem from="1475039338704" duration="1848000" />
+      <workItem from="1475041216636" duration="84000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5923000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -328,60 +307,182 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#center#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="120" column="15" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="120" column="15" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="120" column="15" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="120" column="15" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="120" column="15" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/flexslider/base.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="120" column="15" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/flexslider/theme.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="19" selection-start-line="64" selection-start-column="3" selection-end-line="65" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/woothemes-FlexSlider-9a419a0/flexslider.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28985506">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/woothemes-FlexSlider-9a419a0/flexslider.less" />
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35460994">
+        <state relative-caret-position="0">
           <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15037593">
+        <state relative-caret-position="0">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/flexslider/flexslider.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63909775">
+        <state relative-caret-position="0">
           <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.flexslider-min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -389,7 +490,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.easing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -462,77 +563,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/flexslider/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0074627">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0149255">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/flexslider/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07462686">
+        <state relative-caret-position="0">
           <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/flexslider/resets.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4402985">
+        <state relative-caret-position="0">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/flexslider/responsive.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17910448">
+        <state relative-caret-position="0">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="120" column="15" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/flexslider/theme.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1666665">
+        <state relative-caret-position="18">
           <caret line="65" column="19" selection-start-line="64" selection-start-column="3" selection-end-line="65" selection-end-column="19" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/flexslider/base.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
+        <state relative-caret-position="90">
           <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0833335">
-          <caret line="120" column="15" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/images/vidya.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42105263">
-          <caret line="411" column="39" selection-start-line="411" selection-start-column="39" selection-end-line="411" selection-end-column="39" />
+        <state relative-caret-position="274">
+          <caret line="389" column="62" selection-start-line="389" selection-start-column="62" selection-end-line="389" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#center#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
