@@ -72,7 +72,7 @@
 
 
 </head>
-<body>
+<body ng-app="bridgeApp">
 
 <!-- SLIDER / Start
 =========================================== -->
@@ -504,7 +504,7 @@
 		<div class="container">
 
 			<!-- Contact Form -->
-			<div class="contact-form">
+			<div class="contact-form" ng-controller="contactCntrl">
 
 				<div class="sixteen columns">
 					<div class="success-message">
@@ -512,42 +512,47 @@
 					</div>
 				</div>
 
-				<form class="clearfix" method="post" action="contact.php">
+				<form class="clearfix" name="userForm" id="myForm1">
 
 					<div class="eight columns">
 
 						<div class="field user">
-							<input type="text" name="name" class="text" value="Name" onblur="if (this.value == '') {this.value = 'Name';}" onfocus="if (this.value == 'Name') {this.value = '';}"/>
+							<input type="text" name="name" class="text" value="Name" placeholder="Name" ng-model="name" required/>
+							<p ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="help-block">Name is required.</p>
 						</div>
 
 						<div class="field envelope">
-							<input type="email" name="email" class="text" value="Email" onblur="if (this.value == '') {this.value = 'Email';}" onfocus="if (this.value == 'Email') {this.value = '';}"/>
+							<input type="email" name="email" class="text" placeholder="Email" ng-model="email" required/>
+							<p ng-show="userForm.email.$invalid && !userForm.email.$pristine" class="help-block">Enter a valid email.</p>
 						</div>
 
 						<div class="field bulb">
-							<input type="text" name="asubject" class="text" value="Subject" onblur="if (this.value == 'Subject') {this.value = '';}" onfocus="if (this.value == 'Subject') {this.value = '';}"/>
+							<input type="text" name="subject" class="text" placeholder="Subject" ng-model="subject" required>
 						</div>
 
-						<div class="select money">
-							<select name="budget" id="cd-dropdown" class="cd-select text">
-								<option value="-1" selected>Who are you?</option>
-								<option value="Tech">Tech Company</option>
-								<option value="Fresh-Engineer">Fresh Engineer</option>
-								<option value="Senior-Engineer">Senior Engineer</option>
-								<option value="Seasoned-Professional">Seasoned Professional</option>
+						<!--<div class="select money">-->
+							<!--<select name="budget" id="cd-dropdown" class="cd-select text">-->
+								<!--<option value="-1" selected>Who are you?</option>-->
+								<!--<option value="Tech">Tech Company</option>-->
+								<!--<option value="Fresh-Engineer">Fresh Engineer</option>-->
+								<!--<option value="Senior-Engineer">Senior Engineer</option>-->
+								<!--<option value="Seasoned-Professional">Seasoned Professional</option>-->
 
-							</select>
+							<!--</select>-->
+						<!--</div>-->
+						<div class="field user">
+							<input type="text" name="profile" class="text" ng-model="profile" placeholder="Your Profile" required />
 						</div>
 
 					</div>
 					<div class="eight columns">
 
 						<div class="field pen">
-							<textarea name="message" class="text textarea" onblur="if (this.value == 'Message') {this.value = '';}" onfocus="if (this.value == 'Message') {this.value = '';}">Message</textarea>
+							<textarea name="message" class="text textarea" ng-model="message" placeholder="Message"></textarea>
 						</div>
 
 						<div class="field">
-							<button id="send" class="send"><span aria-hidden="true" class="li_paperplane"></span>Submit</button>
+							<button id="send" class="send" ng-click="submit()"><span aria-hidden="true" class="li_paperplane"></span>Submit</button>
 							<div class="loading"></div>
 						</div>
 
@@ -616,114 +621,120 @@
 	 /*----------------------------------------------------*/
 
 	/* jQuery Start */
-	jQuery(document).ready(function() {
-
-		(function() {
-			var animateSpeed=300;
-			var emailReg = /^[a-zA-Z0-9._-]+@([a-zA-Z0-9.-]+\.)+[a-zA-Z0-9.-]{2,4}$/;
-
-			// Validating
-
-			function validateName(name) {
-				if (name.val()=='*') {name.addClass('validation-error',animateSpeed); return false;}
-				else {name.removeClass('validation-error',animateSpeed); return true;}
-			}
-
-			function validateEmail(email,regex) {
-				if (!regex.test(email.val())) {email.addClass('validation-error',animateSpeed); return false;}
-				else {email.removeClass('validation-error',animateSpeed); return true;}
-			}
-
-			function validateSubject(asubject) {
-				if (asubject.val()=='*') {asubject.addClass('validation-error',animateSpeed); return false;}
-				else {asubject.removeClass('validation-error',animateSpeed); return true;}
-			}
-
-			function validateMessage(message) {
-				if (message.val()=='') {message.addClass('validation-error',animateSpeed); return false;}
-				else {message.removeClass('validation-error',animateSpeed); return true;}
-			}
-
-			$('#send').click(function() {
-
-				var result=true;
-
-				var name = $('input[name=name]');
-				var email = $('input[name=email]');
-				var asubject = $('input[name=asubject]');
-				var message = $('textarea[name=message]');
-				var budget = $('input[name="budget"]');
-
-				// Validate
-				if(!validateName(name)) result=false;
-				if(!validateSubject(asubject)) result=false;
-				if(!validateEmail(email,emailReg)) result=false;
-				if(!validateMessage(message)) result=false;
-
-				if(result==false) return false;
-
-				// Data
-				var data = 'name=' + name.val() + '&email=' + email.val() + '&asubject=' + asubject.val() + '&message='  + encodeURIComponent(message.val()) + "&budget="+budget.val();
-
-				// Disable fields
-				$('.text').attr('disabled','true');
-
-				// Loading icon
-				$('.loading').show();
-
-				// Start jQuery
-				$.ajax({
-
-					// PHP file that processes the data and send mail
-					url: "contact.php",
-
-					// GET method is used
-					type: "GET",
-
-					// Pass the data
-					data: data,
-
-					//Do not cache the page
-					cache: false,
-
-					// Success
-					success: function (html) {
-
-						if (html==1) {
-
-							// Loading icon
-							$('.loading').fadeOut('slow');
-
-							//show the success message
-							$('.success-message').slideDown('slow');
-
-							// Disable send button
-							$('.send').attr('disabled',true);
-
-						}
-
-						else {
-							$('.loading').fadeOut('slow')
-							alert('Sorry, unexpected error. Please try again later.');
-						}
-					}
-				});
-
-				return false;
-
-			});
-
-			$('input[name=name]').blur(function(){validateName($(this));});
-			$('input[name=email]').blur(function(){validateEmail($(this),emailReg); });
-			$('input[name=asubject]').blur(function(){validateSubject($(this));});
-			$('textarea[name=message]').blur(function(){validateMessage($(this)); });
-
-		})();
-
-	});
+//	jQuery(document).ready(function() {
+//
+//		(function() {
+//			var animateSpeed=300;
+//			var emailReg = /^[a-zA-Z0-9._-]+@([a-zA-Z0-9.-]+\.)+[a-zA-Z0-9.-]{2,4}$/;
+//
+//			// Validating
+//
+//			function validateName(name) {
+//				if (name.val()=='*') {name.addClass('validation-error',animateSpeed); return false;}
+//				else {name.removeClass('validation-error',animateSpeed); return true;}
+//			}
+//
+//			function validateEmail(email,regex) {
+//				if (!regex.test(email.val())) {email.addClass('validation-error',animateSpeed); return false;}
+//				else {email.removeClass('validation-error',animateSpeed); return true;}
+//			}
+//
+//			function validateSubject(asubject) {
+//				if (asubject.val()=='*') {asubject.addClass('validation-error',animateSpeed); return false;}
+//				else {asubject.removeClass('validation-error',animateSpeed); return true;}
+//			}
+//
+//			function validateMessage(message) {
+//				if (message.val()=='') {message.addClass('validation-error',animateSpeed); return false;}
+//				else {message.removeClass('validation-error',animateSpeed); return true;}
+//			}
+//
+//			$('#send').click(function() {
+//
+//				var result=true;
+//
+//				var name = $('input[name=name]');
+//				var email = $('input[name=email]');
+//				var asubject = $('input[name=asubject]');
+//				var message = $('textarea[name=message]');
+//				var budget = $('input[name="budget"]');
+//
+//				// Validate
+//				if(!validateName(name)) result=false;
+//				if(!validateSubject(asubject)) result=false;
+//				if(!validateEmail(email,emailReg)) result=false;
+//				if(!validateMessage(message)) result=false;
+//
+//				if(result==false) return false;
+//
+//				// Data
+//				var data = 'name=' + name.val() + '&email=' + email.val() + '&asubject=' + asubject.val() + '&message='  + encodeURIComponent(message.val()) + "&budget="+budget.val();
+//
+//				// Disable fields
+//				$('.text').attr('disabled','true');
+//
+//				// Loading icon
+//				$('.loading').show();
+//
+//				// Start jQuery
+//				$.ajax({
+//
+//					// PHP file that processes the data and send mail
+//					url: "contact.php",
+//
+//					// GET method is used
+//					type: "GET",
+//
+//					// Pass the data
+//					data: data,
+//
+//					//Do not cache the page
+//					cache: false,
+//
+//					// Success
+//					success: function (html) {
+//
+//						if (html==1) {
+//
+//							// Loading icon
+//							$('.loading').fadeOut('slow');
+//
+//							//show the success message
+//							$('.success-message').slideDown('slow');
+//
+//							// Disable send button
+//							$('.send').attr('disabled',true);
+//
+//						}
+//
+//						else {
+//							$('.loading').fadeOut('slow')
+//							alert('Sorry, unexpected error. Please try again later.');
+//						}
+//					}
+//				});
+//
+//				return false;
+//
+//			});
+//
+//			$('input[name=name]').blur(function(){validateName($(this));});
+//			$('input[name=email]').blur(function(){validateEmail($(this),emailReg); });
+//			$('input[name=asubject]').blur(function(){validateSubject($(this));});
+//			$('textarea[name=message]').blur(function(){validateMessage($(this)); });
+//
+//		})();
+//
+//	});
 	/* jQuery End */
 </script>
 <!-- End Document
 ================================================== -->
 </body>
+
+<script src="bower_components/angular/angular.min.js"></script>
+
+<script src="app.js"></script>
+<script src="controller/contactCntrl.js"></script>
+
 </html>
