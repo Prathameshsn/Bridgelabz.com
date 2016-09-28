@@ -69,7 +69,11 @@
 			$('.newsletter').parallax("50%", 0.1);
 		})
 	</script>
-
+	<style>
+		#success{
+			color:darkgreen;
+		}
+	</style>
 
 </head>
 <body ng-app="bridgeApp">
@@ -560,7 +564,7 @@
 
 				</form><br>
 				<center>
-					<h5 style="color: darkgreen"><span ng-show="show">Message has been sent! Please check your email.</span></h5>
+					<h5><span id="success" ng-show="show">Message has been sent! Please check your email.</span></h5>
 				</center>
 			</div>
 
