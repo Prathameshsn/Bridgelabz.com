@@ -549,20 +549,20 @@
 						</div>
 
 						<div class="field">
-							<button id="send" class="send" ng-click="submit()">
-
-
-									<span aria-hidden="true" class="li_paperplane"></span>Submit
-
+							<button id="send" class="send" ng-click="submit()" ng-disabled="loading">
+								<span aria-hidden="true" class="li_paperplane"></span>Submit
 							</button>
-							<span ng-show="loading">Sending...</span>
+
 						</div>
 
 					</div>
 
 				</form><br>
 				<center>
-					<h5><span id="success" ng-show="show">Message has been sent! Please check your email.</span></h5>
+					<h5>
+						<span ng-show="loading"><img src="images/spinner.GIF" style="height: 32px;height: 32px;"></span>
+						<span id="success" ng-show="show">Message has been sent! Please check your email.</span>
+					</h5>
 				</center>
 			</div>
 
