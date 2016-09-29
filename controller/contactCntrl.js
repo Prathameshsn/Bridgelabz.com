@@ -21,7 +21,7 @@ angular.module('bridgeApp').controller('contactCntrl', function ($scope, $http,$
             $scope.show = true;
             $interval(function(){
                 $scope.show = false;
-            },3000);
+            },8000);
         }).error(function (err) {
             console.log(err); // Getting Error Response in Callback
             // $scope.codeStatus = err ;
