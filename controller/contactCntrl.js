@@ -1,4 +1,4 @@
-angular.module('bridgeApp').controller('contactCntrl', function ($scope, $http,$timeout) {
+angular.module('bridgeApp').controller('contactCntrl', function ($scope, $http,$interval) {
     $scope.codeStatus = "";
     $scope.show = false;
     $scope.loading = false;
@@ -18,7 +18,7 @@ angular.module('bridgeApp').controller('contactCntrl', function ($scope, $http,$
             $scope.loading = false;
             console.log(response); // Getting Success Response in Callback
             document.getElementById("myForm1").reset();
-            $timeout(function(){
+            $interval(function(){
                 $scope.show = true;
             },3000);
         }).error(function (err) {
