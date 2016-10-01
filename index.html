@@ -531,7 +531,7 @@
 						</div>
 
 						<div class="field bulb">
-							<input type="text" name="subject" class="text" placeholder="Subject" ng-model="subject" required>
+							<input type="text" class="text" placeholder="Contact No." ng-model="cnumber" required>
 						</div>
 
 						<!--<div class="select money">-->
@@ -541,14 +541,23 @@
 								<!--<option value="Fresh-Engineer">Fresh Engineer</option>-->
 								<!--<option value="Senior-Engineer">Senior Engineer</option>-->
 								<!--<option value="Seasoned-Professional">Seasoned Professional</option>-->
-
 							<!--</select>-->
 						<!--</div>-->
+						
 						<div class="field user">
-							<input type="text" name="profile" class="text" ng-model="profile" placeholder="Your Profile" required />
+							<input type="file" ng-mouseover="showwindow()" ng-mouseleave="removewindow()" name="file" ng-files="getTheFiles($files)" required>
+						</div>
+					
+						<!--Model for resume attach popup msg-->
+						<div id="attachwindow" class="modal">
+							<div class="windowposition">
+								Attach Your Resume Here 
+							</div>
 						</div>
 
 					</div>
+					
+
 					<div class="eight columns">
 
 						<div class="field pen">
@@ -740,9 +749,9 @@
 ================================================== -->
 </body>
 
-<script src="bower_components/angular/angular.min.js"></script>
-
-<script src="app.js"></script>
-<script src="controller/contactCntrl.js"></script>
-
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="app.js"></script>
+	<script src="controller/contactCntrl.js"></script>
+	<script src="services/file.js"></script>
+	
 </html>

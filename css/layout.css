@@ -1315,3 +1315,17 @@ and (orientation : landscape) {
 	}
 		
 }
+
+/*attach resume window*/
+.windowposition{
+margin-top: -9px;
+margin-left: 285px;
+width: 190px;
+height:0px;
+background-color: #000000;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    background-color: #000000;
+}
