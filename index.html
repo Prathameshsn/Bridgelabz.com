@@ -381,7 +381,6 @@
 			<article>
 
 				<h5>Our Faces</h5>
-
 				<div class="one-third column">
 					<figure class="picture">
 						<img src="images/shailesh@bridge.jpg">
@@ -391,10 +390,11 @@
 
 								<li><a href="https://in.linkedin.com/in/sailesh-muthu-4445127"><i class="icon-linkedin"></i></a></li>
 							</ul>
-							<span>Head of Business Development</span>
+							<span>Head Business Development</span>
 						</figcaption>
 					</figure>
 				</div>
+
 				<div class="one-third column">
 					<figure class="picture">
 						<img src="images/veejay@bridge.jpg">
@@ -403,7 +403,7 @@
 							<ul>
 								<li><a href="https://www.linkedin.com/in/vijaybasotia"><i class="icon-linkedin"></i></a></li>
 							</ul>
-							<span >Human Resource Head &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+							<span >Head Human Resource &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 						</figcaption>
 					</figure>
 				</div>
@@ -439,25 +439,19 @@
 						<img src="images/nithya.jpg">
 						<figcaption>
 							<span>Nithyashree G Subban</span>
-							<ul>
-
-
-							</ul>
 							<span>Founder Celebrity Football League </br>Mentor </span>
 						</figcaption>
 					</figure>
 				</div>
-
 				<div class="one-third column">
-					<figure class="picture">
-						<img src="images/vijay.png">
+					<figure class="picture" style="padding-bottom: 18px;">
+						<img src="images/vidya.jpg">
 						<figcaption>
-							<span>Vijay Talreja</span>
-							<ul>
+							<span>Shreevidya Ramamurthy</span>
 
-								<li><a href="https://in.linkedin.com/in/vijaytalreja"><i class="icon-linkedin"></i></a></li>
-							</ul>
-							<span>Co-Founder,Adapty Inc Tech Entrepreneur and Advisor</span>
+							<span>Founder & Director</span>
+
+
 						</figcaption>
 					</figure>
 				</div>
@@ -545,7 +539,7 @@
 						<!--</div>-->
 						
 						<div class="field user">
-							<input type="file" ng-mouseover="showwindow()" ng-mouseleave="removewindow()" name="file" ng-files="getTheFiles($files)" required>
+							<input id="file-upload" type="file" ng-mouseover="showwindow()" ng-mouseleave="removewindow()" name="file" ng-files="getTheFiles($files)" required>
 						</div>
 					
 						<!--Model for resume attach popup msg-->
@@ -559,21 +553,23 @@
 					
 
 					<div class="eight columns">
-
 						<div class="field pen">
 							<textarea name="message" class="text textarea" ng-model="message" placeholder="Message"></textarea>
 						</div>
 
 						<div class="field">
-							<button id="send" class="send" ng-click="submit()"><span aria-hidden="true" class="li_paperplane"></span>Submit</button>
-							<div class="loading"></div>
+							<button id="send" class="send" ng-click="submit()">
+								<span aria-hidden="true" class="li_paperplane"></span>Submit
+							</button>
 						</div>
-
 					</div>
 
 				</form><br>
 				<center>
-					<h5><span id="success" ng-show="show">Message has been sent! Please check your email.</span></h5>
+					<h5>
+						<span ng-show="loading"><img src="images/spinner.GIF" style="width: 40px;height: 40px;"></span>
+						<span id="success" ng-show="show">Message has been sent! Please check your email.</span>
+					</h5>
 				</center>
 			</div>
 

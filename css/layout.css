@@ -1329,3 +1329,15 @@ background-color: #000000;
     display: none; /* Hidden by default */
     background-color: #000000;
 }
+
+/*input[type="file"] {
+    display: none;
+}*/
+.custom-file-upload {
+    border: 2px solid #ccc;
+	border-radius: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+	height:45px;
+    cursor: pointer;
+}
