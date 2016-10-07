@@ -47,6 +47,7 @@ angular.module('bridgeApp').directive('ngFiles', ['$parse', function ($parse) {
                 'message': this.message,
                 'file': fileServ.getFile()
             };
+            
 
             // Accessing the Angular $http Service to send data via REST Communication to Node Server.
             $http.post('https://bridge941.herokuapp.com/setData', formData).success(function (response) {
@@ -61,6 +62,7 @@ angular.module('bridgeApp').directive('ngFiles', ['$parse', function ($parse) {
                 console.log(err); // Getting Error Response in Callback
                 // $scope.codeStatus = err ;
             });
+
             return false;
         }
 
